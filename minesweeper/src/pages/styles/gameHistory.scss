@@ -3,7 +3,8 @@ $green:#06FF00;
     margin-top: 50px;
     width: 50%;
     height: 400px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +13,6 @@ $green:#06FF00;
 @media (max-width: 600px) {
     .container-history{
         height:auto;
-        width: 40rem;
+        width: 60%;
     }
 }
