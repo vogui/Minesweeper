@@ -2,7 +2,7 @@ $green:#06FF00;
 .container-history{
     margin-top: 50px;
     width: 50%;
-    height: 400px;
+    height:auto;
     overflow-y: auto;
     overflow-x: hidden;
     display: flex;
@@ -12,7 +12,6 @@ $green:#06FF00;
 }
 @media (max-width: 600px) {
     .container-history{
-        height:auto;
         width: 60%;
     }
 }
