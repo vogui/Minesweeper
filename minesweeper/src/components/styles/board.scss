@@ -1,0 +1,33 @@
+.container-board {
+  display: flex;
+  width: 100%;
+}
+.container-btn {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+}
+
+.btn {
+  margin-top: 5px;
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container-board {
+    justify-content: center;
+  }
+  .btn {
+    margin-top: 5px;
+    width: 40%;
+    height: 3rem;
+    font-size: 15px;
+  }
+
+
+}
+

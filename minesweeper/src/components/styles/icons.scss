@@ -1,0 +1,28 @@
+.Easy-icon{
+    width: 25px;
+    height: 25px;
+}
+.Medium-icon{
+    width: 15px;
+    height: 15px;
+}
+.Hard-icon{
+    width: 10px;
+    height: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .Easy-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Medium-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .Hard-icon{
+        width: 10px;
+        height: 10px;
+    }
+}

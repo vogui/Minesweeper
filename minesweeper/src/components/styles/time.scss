@@ -1,0 +1,22 @@
+.container-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+.reloj{
+    text-align: center;
+    font-size: 30px;
+}
+.timer{
+    text-align: center;
+    font-size: 30px;
+}
+@media (max-width: 600px) {
+    .timer{
+        font-size: 30px;
+    }
+    .reloj{
+        font-size: 30px;
+    }
+}
